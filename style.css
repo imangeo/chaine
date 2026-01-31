@@ -270,7 +270,7 @@
             color: var(--primary-color);
             border-color: var(--primary-color);
   display:block;
-  margin:auto;
+  margin: 0 auto;
     }
 
     .cta:hover{
@@ -597,4 +597,5 @@
       animation: float 3s ease-in-out infinite;
 
   }
+
 
