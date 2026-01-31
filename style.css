@@ -256,6 +256,27 @@
       transform: translateY(-3px);
   }
 
+.cta{
+    padding: 1rem 1.5rem;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.8rem;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+        cursor: pointer;
+        letter-spacing: 0.5px;
+        background: transparent;
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+    }
+
+    .cta:hover{
+    background: var(--primary-color);
+        color: var(--darker-bg);
+        transform: translateY(-3px);
+    }
+
   /* Section Collections */
   .collections {
       padding: 8rem 4rem;
@@ -572,4 +593,5 @@
 
   .logo-icon {
       animation: float 3s ease-in-out infinite;
+
   }
